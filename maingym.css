@@ -1,0 +1,175 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define global styles */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+
+.left img {
+    width: 135px;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+
+.right {
+    position: fixed;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+    position: fixed;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+    
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    
+    
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 60px 15px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('2gym.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 345px 0;
+    color: #ffffff;
+    background-position-y: 27%;
+    
+}
+
+.hero h2 {
+    font-size: 52px;
+    margin-bottom: 35px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF8C00;
+}
+
+
+.Services{
+    display: inline-block;
+}
+.Services h1{
+    font-size: 50px;
+    font-style: oblique;
+}
+.Ser{
+    display: inline-block;
+}
+.Ser li{
+    display: inline-block;
+    font-size: 26px;
+}
+.Ser li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 60px;
+
+}
+
+.Ser li a:hover,
+.Ser li a.active {
+    text-decoration: underline;
+    color: rgb(79, 76, 76);
+
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+
+/* About Us section styles */
+.about-us {
+    background-color: #404040;
+    padding: 40px 0;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.socialmedia a img{
+    width: 70px;
+    object-position: 4px 4px;
+    padding: 0px 20px;
+}
+
+

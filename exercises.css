@@ -1,0 +1,287 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(anastase-maragos-4dlhin0ghOk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 65% ;
+}
+
+.exercise{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.Biceps a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 5px 53px;
+    padding: 7px 9px;
+    display: inline-block
+}
+.Biceps h2{
+    margin-left: 130px;
+    margin-top: 140px;
+    font-size: 195%;
+}
+.Biceps a img{
+    width: 500px;
+    object-position: 30px 30px;
+}
+.Biceps a:hover,
+.Biceps a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Triceps a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin: 4px 4px;
+    padding: 4px 4px;
+    display: inline-block;
+    margin-left: 59%;
+    
+    
+}
+.Triceps h2{
+    margin-left: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 195%;
+}
+
+.Triceps a img{
+    width: 500px;
+    object-position: 30px 30px;
+    margin-top: -41px;
+    margin-bottom: 40px;
+}
+.Triceps a:hover,
+.Triceps a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Back a img{
+    width: 350px ;
+    margin-left: 92px;
+    margin-top: 56px;
+}
+.Back h2{
+    margin-left: 162px;
+    font-size: 195%;
+}
+
+.Back a:hover,
+.Back a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Back a{
+    text-decoration: none;
+    color: white;
+}
+.Chest h2{
+    margin-left: 72%;
+    margin-top: 57px;
+    font-size: 195%;
+}
+.Chest a img{
+    width: 315px;
+    object-position: 30px 30px;
+    margin-top: 30px;
+    margin-left: 70%;
+}
+.Chest a:hover,
+.Chest a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Chest a{
+    text-decoration: none;
+    color: white;
+}
+.Abs a img{
+    width: 450px ;
+    margin-left: 92px;
+    margin-top: 56px;
+}
+.Abs h2{
+    margin-left: 217px;
+    font-size: 195%;
+}
+
+.Abs a:hover,
+.Abs a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Abs a{
+    text-decoration: none;
+    color: white;
+}
+.Legs h2{
+    margin-left: 70%;
+    margin-top: 57px;
+    font-size: 195%;
+}
+.Legs a img{
+    width: 470px;
+    object-position: 30px 30px;
+    margin-top: 30px;
+    margin-left: 60%;
+}
+.Legs a:hover,
+.Legs a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.Legs a{
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+
+.left img {
+    width: 135px;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+
+.right {
+    position: fixed;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+    position: fixed;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+    
+}
+.Services{
+    display: inline-block;
+}
+.Services h1{
+    font-size: 50px;
+    font-style: oblique;
+    color: white;
+}
+.Ser{
+    display: inline-block;
+}
+.Ser li{
+    display: inline-block;
+    font-size: 26px;
+}
+.Ser li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 60px;
+
+}
+
+.Ser li a:hover,
+.Ser li a.active {
+    text-decoration: underline;
+    color: rgb(79, 76, 76);
+
+}
+
+.btn{
+    margin: 0px 9px;
+    
+    color: white;
+    padding: 4px 14px;
+    
+    
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 60px 15px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+.contact {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.socialmedia a img{
+    width: 70px;
+    object-position: 4px 4px;
+    padding: 0px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF8C00;
+}
+.about-us {
+    background-color: #404040;
+    padding: 40px 0;
+    color: white;
+}
